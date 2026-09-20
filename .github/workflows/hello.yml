@@ -8,4 +8,7 @@ jobs:
       - name: Check Environment
         run: |
           echo "$(uname -a)"
+          echo "--------------------"
           cat /etc/os-release
+          echo "--------------------"
+          df -hT
