@@ -8,3 +8,4 @@ jobs:
       - name: Check Environment
         run: |
           echo "$(uname -a)"
+          cat /etc/os-release
