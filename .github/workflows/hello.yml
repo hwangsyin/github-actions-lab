@@ -23,4 +23,6 @@ jobs:
           sudo rm -rf /usr/share/swift
           echo "After /usr/share/swift removed:"
           df -hT
+          echo "----"
+          cat /etc/apt/sources.list
 
