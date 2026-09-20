@@ -12,3 +12,8 @@ jobs:
           cat /etc/os-release
           echo "--------------------"
           df -hT
+          echo "--------------------"
+          sudo rm -rf /usr/share/dotnet
+          echo "--------------------"
+          df -hT
+
