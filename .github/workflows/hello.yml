@@ -1,5 +1,5 @@
 name: GitHub Actions Lab
-run-name: ${{ github.actor }} is testing out GitHub Actions
+run-name: GitHub Actions Lab
 on: [push]
 jobs:
   Explore-GitHub-Actions:
@@ -25,4 +25,5 @@ jobs:
           df -hT
           echo "----"
           cat /etc/apt/sources.list
+          ls -la /etc/apt/sources.list.d
 
