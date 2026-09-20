@@ -20,4 +20,7 @@ jobs:
           echo "After /usr/local/lib/android removed:"
           df -hT
           echo "$AGENT_TOOLSDIRECTORY"
+          sudo rm -rf /usr/share/swift
+          echo "After /usr/share/swift removed:"
+          df -hT
 
