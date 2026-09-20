@@ -5,6 +5,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Say Hello
+      - name: Check Environment
         run: |
-          echo "Hello World! GitHub Actions"
+          echo "$(uname -a)"
